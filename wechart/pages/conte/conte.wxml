@@ -1,0 +1,8 @@
+<view class="setimg">
+  <view class="page__hd">
+    <text>我媳妇</text>
+  </view>
+  <view class="imgs">
+    <image src="/image/3444.jpg" mode="aspectFit"></image>
+  </view>
+</view>

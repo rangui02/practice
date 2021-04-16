@@ -1,0 +1,15 @@
+<view class="setimg">
+  <view class="page__hd">
+    <text>原图会被拍照后的照片替换</text>
+  </view>
+  <view class="imgs">
+    <image src="{{src}}" mode="aspectFit"></image>
+  </view>
+  <button type="primary" bindtap="showIs">{{show?'点击关闭拍照':'点击开始拍照'}}</button>
+  <view style="display:{{show?'block':'none'}}">
+    <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px; ">
+    </camera>
+  </view>
+  <button type="primary" bindtap="takePhoto">拍照按钮</button>
+  <view>................</view>
+</view>

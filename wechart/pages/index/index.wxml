@@ -1,0 +1,12 @@
+<view class="btn-area">
+  <!-- 
+    1. navigator 默认是不能跳转到tabbar几个页面的，如果真要实现这样的效果，那么需要设置oper-type="switchTab"
+   -->
+  <!-- 错误示范 -->
+  <navigator url="/pages/love/love" open-type="navigate" hover-class="navigator-hover">点击有惊喜</navigator>
+  <!-- 正确示范 -->
+  <navigator url="/pages/conte/conte" open-type="switchTab" hover-class="other-navigator-hover">前往conte</navigator>
+  <navigator url="/pages/mine/mine" open-type="switchTab" hover-class="other-navigator-hover">跳到mine</navigator>
+  <!-- 图片 -->
+  <image class="imgs" src="/image/130.jpg"></image>
+</view>

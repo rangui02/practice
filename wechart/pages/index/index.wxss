@@ -1,0 +1,23 @@
+/* pages/index/index.wxss */
+.imgs {
+  display: block;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+navigator {
+  height: 50px;
+  line-height: 50px;
+  background-color: chartreuse;
+  margin-bottom: 3px;
+}
+
+.navigator-hover {
+  color: blue;
+}
+
+.other-navigator-hover {
+  color: red;
+}

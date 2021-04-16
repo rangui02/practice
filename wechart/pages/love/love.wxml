@@ -1,0 +1,4 @@
+<!--pages/love/love.wxml-->
+<view class="love">
+  爱你
+</view>
